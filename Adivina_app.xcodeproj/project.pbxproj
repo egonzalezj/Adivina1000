@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7979E331BD9A2250085E07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7979E321BD9A2250085E07B /* AppDelegate.swift */; };
+		D7979E351BD9A2250085E07B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7979E341BD9A2250085E07B /* ViewController.swift */; };
+		D7979E381BD9A2250085E07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7979E361BD9A2250085E07B /* Main.storyboard */; };
+		D7979E3A1BD9A2250085E07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7979E391BD9A2250085E07B /* Assets.xcassets */; };
+		D7979E3D1BD9A2250085E07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7979E3B1BD9A2250085E07B /* LaunchScreen.storyboard */; };
+		D7979E481BD9A2250085E07B /* Adivina_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7979E471BD9A2250085E07B /* Adivina_appTests.swift */; };
+		D7979E531BD9A2250085E07B /* Adivina_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7979E521BD9A2250085E07B /* Adivina_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7979E441BD9A2250085E07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7979E271BD9A2240085E07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7979E2E1BD9A2250085E07B;
+			remoteInfo = Adivina_app;
+		};
+		D7979E4F1BD9A2250085E07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7979E271BD9A2240085E07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7979E2E1BD9A2250085E07B;
+			remoteInfo = Adivina_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7979E2F1BD9A2250085E07B /* Adivina_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adivina_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7979E321BD9A2250085E07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7979E341BD9A2250085E07B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7979E371BD9A2250085E07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7979E391BD9A2250085E07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7979E3C1BD9A2250085E07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7979E3E1BD9A2250085E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7979E431BD9A2250085E07B /* Adivina_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adivina_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7979E471BD9A2250085E07B /* Adivina_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adivina_appTests.swift; sourceTree = "<group>"; };
+		D7979E491BD9A2250085E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7979E4E1BD9A2250085E07B /* Adivina_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adivina_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7979E521BD9A2250085E07B /* Adivina_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adivina_appUITests.swift; sourceTree = "<group>"; };
+		D7979E541BD9A2250085E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7979E2C1BD9A2250085E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7979E401BD9A2250085E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7979E4B1BD9A2250085E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7979E261BD9A2240085E07B = {
+			isa = PBXGroup;
+			children = (
+				D7979E311BD9A2250085E07B /* Adivina_app */,
+				D7979E461BD9A2250085E07B /* Adivina_appTests */,
+				D7979E511BD9A2250085E07B /* Adivina_appUITests */,
+				D7979E301BD9A2250085E07B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7979E301BD9A2250085E07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7979E2F1BD9A2250085E07B /* Adivina_app.app */,
+				D7979E431BD9A2250085E07B /* Adivina_appTests.xctest */,
+				D7979E4E1BD9A2250085E07B /* Adivina_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7979E311BD9A2250085E07B /* Adivina_app */ = {
+			isa = PBXGroup;
+			children = (
+				D7979E321BD9A2250085E07B /* AppDelegate.swift */,
+				D7979E341BD9A2250085E07B /* ViewController.swift */,
+				D7979E361BD9A2250085E07B /* Main.storyboard */,
+				D7979E391BD9A2250085E07B /* Assets.xcassets */,
+				D7979E3B1BD9A2250085E07B /* LaunchScreen.storyboard */,
+				D7979E3E1BD9A2250085E07B /* Info.plist */,
+			);
+			path = Adivina_app;
+			sourceTree = "<group>";
+		};
+		D7979E461BD9A2250085E07B /* Adivina_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7979E471BD9A2250085E07B /* Adivina_appTests.swift */,
+				D7979E491BD9A2250085E07B /* Info.plist */,
+			);
+			path = Adivina_appTests;
+			sourceTree = "<group>";
+		};
+		D7979E511BD9A2250085E07B /* Adivina_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7979E521BD9A2250085E07B /* Adivina_appUITests.swift */,
+				D7979E541BD9A2250085E07B /* Info.plist */,
+			);
+			path = Adivina_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7979E2E1BD9A2250085E07B /* Adivina_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7979E571BD9A2250085E07B /* Build configuration list for PBXNativeTarget "Adivina_app" */;
+			buildPhases = (
+				D7979E2B1BD9A2250085E07B /* Sources */,
+				D7979E2C1BD9A2250085E07B /* Frameworks */,
+				D7979E2D1BD9A2250085E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adivina_app;
+			productName = Adivina_app;
+			productReference = D7979E2F1BD9A2250085E07B /* Adivina_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7979E421BD9A2250085E07B /* Adivina_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7979E5A1BD9A2250085E07B /* Build configuration list for PBXNativeTarget "Adivina_appTests" */;
+			buildPhases = (
+				D7979E3F1BD9A2250085E07B /* Sources */,
+				D7979E401BD9A2250085E07B /* Frameworks */,
+				D7979E411BD9A2250085E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7979E451BD9A2250085E07B /* PBXTargetDependency */,
+			);
+			name = Adivina_appTests;
+			productName = Adivina_appTests;
+			productReference = D7979E431BD9A2250085E07B /* Adivina_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7979E4D1BD9A2250085E07B /* Adivina_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7979E5D1BD9A2250085E07B /* Build configuration list for PBXNativeTarget "Adivina_appUITests" */;
+			buildPhases = (
+				D7979E4A1BD9A2250085E07B /* Sources */,
+				D7979E4B1BD9A2250085E07B /* Frameworks */,
+				D7979E4C1BD9A2250085E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7979E501BD9A2250085E07B /* PBXTargetDependency */,
+			);
+			name = Adivina_appUITests;
+			productName = Adivina_appUITests;
+			productReference = D7979E4E1BD9A2250085E07B /* Adivina_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7979E271BD9A2240085E07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Elisabet;
+				TargetAttributes = {
+					D7979E2E1BD9A2250085E07B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D7979E421BD9A2250085E07B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D7979E2E1BD9A2250085E07B;
+					};
+					D7979E4D1BD9A2250085E07B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D7979E2E1BD9A2250085E07B;
+					};
+				};
+			};
+			buildConfigurationList = D7979E2A1BD9A2240085E07B /* Build configuration list for PBXProject "Adivina_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7979E261BD9A2240085E07B;
+			productRefGroup = D7979E301BD9A2250085E07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7979E2E1BD9A2250085E07B /* Adivina_app */,
+				D7979E421BD9A2250085E07B /* Adivina_appTests */,
+				D7979E4D1BD9A2250085E07B /* Adivina_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7979E2D1BD9A2250085E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7979E3D1BD9A2250085E07B /* LaunchScreen.storyboard in Resources */,
+				D7979E3A1BD9A2250085E07B /* Assets.xcassets in Resources */,
+				D7979E381BD9A2250085E07B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7979E411BD9A2250085E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7979E4C1BD9A2250085E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7979E2B1BD9A2250085E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7979E351BD9A2250085E07B /* ViewController.swift in Sources */,
+				D7979E331BD9A2250085E07B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7979E3F1BD9A2250085E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7979E481BD9A2250085E07B /* Adivina_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7979E4A1BD9A2250085E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7979E531BD9A2250085E07B /* Adivina_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7979E451BD9A2250085E07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7979E2E1BD9A2250085E07B /* Adivina_app */;
+			targetProxy = D7979E441BD9A2250085E07B /* PBXContainerItemProxy */;
+		};
+		D7979E501BD9A2250085E07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7979E2E1BD9A2250085E07B /* Adivina_app */;
+			targetProxy = D7979E4F1BD9A2250085E07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7979E361BD9A2250085E07B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7979E371BD9A2250085E07B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7979E3B1BD9A2250085E07B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7979E3C1BD9A2250085E07B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7979E551BD9A2250085E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7979E561BD9A2250085E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7979E581BD9A2250085E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Adivina_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.itchihuahua.Adivina-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7979E591BD9A2250085E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Adivina_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.itchihuahua.Adivina-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7979E5B1BD9A2250085E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Adivina_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.itchihuahua.Adivina-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adivina_app.app/Adivina_app";
+			};
+			name = Debug;
+		};
+		D7979E5C1BD9A2250085E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Adivina_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.itchihuahua.Adivina-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adivina_app.app/Adivina_app";
+			};
+			name = Release;
+		};
+		D7979E5E1BD9A2250085E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Adivina_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.itchihuahua.Adivina-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Adivina_app;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D7979E5F1BD9A2250085E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Adivina_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.itchihuahua.Adivina-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Adivina_app;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7979E2A1BD9A2240085E07B /* Build configuration list for PBXProject "Adivina_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7979E551BD9A2250085E07B /* Debug */,
+				D7979E561BD9A2250085E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7979E571BD9A2250085E07B /* Build configuration list for PBXNativeTarget "Adivina_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7979E581BD9A2250085E07B /* Debug */,
+				D7979E591BD9A2250085E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7979E5A1BD9A2250085E07B /* Build configuration list for PBXNativeTarget "Adivina_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7979E5B1BD9A2250085E07B /* Debug */,
+				D7979E5C1BD9A2250085E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7979E5D1BD9A2250085E07B /* Build configuration list for PBXNativeTarget "Adivina_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7979E5E1BD9A2250085E07B /* Debug */,
+				D7979E5F1BD9A2250085E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7979E271BD9A2240085E07B /* Project object */;
+}
