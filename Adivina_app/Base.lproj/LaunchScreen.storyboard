@@ -17,18 +17,66 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Y6H-SV-Oeh">
-                                <rect key="frame" x="154" y="20" width="293" height="239"/>
+                                <rect key="frame" x="181" y="20" width="238" height="176"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="293" id="Hgw-Dd-a5E"/>
-                                    <constraint firstAttribute="height" constant="239" id="yef-bK-wOc"/>
+                                    <constraint firstAttribute="width" constant="238" id="Hgw-Dd-a5E"/>
+                                    <constraint firstAttribute="height" constant="176" id="yef-bK-wOc"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laboratorio de Aprendizaje Móvil" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etx-xB-IfZ">
+                                <rect key="frame" x="174" y="244" width="252" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2fA-qJ-4sl"/>
+                                    <constraint firstAttribute="width" constant="252" id="exQ-bX-MWl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instituto Tecnológico de Chihuahua" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upq-PH-DJ6">
+                                <rect key="frame" x="165" y="267" width="270" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9OW-nw-MHZ"/>
+                                    <constraint firstAttribute="width" constant="270" id="KZ0-f3-r4X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADIVINA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yh1-BI-Nxh">
+                                <rect key="frame" x="237" y="190" width="126" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="6EQ-GA-bSA"/>
+                                    <constraint firstAttribute="width" constant="126" id="StE-3a-UND"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Octubre 2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmV-Lf-eB2">
+                                <rect key="frame" x="248" y="289" width="105" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DhF-Xr-vir"/>
+                                    <constraint firstAttribute="width" constant="105" id="JyF-yK-uC6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.68235294120000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Y6H-SV-Oeh" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="3wO-dB-Jc3"/>
+                            <constraint firstItem="Upq-PH-DJ6" firstAttribute="centerX" secondItem="Etx-xB-IfZ" secondAttribute="centerX" id="CgQ-vE-SlP"/>
+                            <constraint firstItem="Upq-PH-DJ6" firstAttribute="top" secondItem="Etx-xB-IfZ" secondAttribute="bottom" constant="2" id="EX4-Dd-deB"/>
+                            <constraint firstItem="cmV-Lf-eB2" firstAttribute="top" secondItem="Upq-PH-DJ6" secondAttribute="bottom" constant="1" id="O4W-2x-7u8"/>
                             <constraint firstItem="Y6H-SV-Oeh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PzN-ix-G4k"/>
+                            <constraint firstItem="Yh1-BI-Nxh" firstAttribute="centerX" secondItem="Y6H-SV-Oeh" secondAttribute="centerX" id="aiv-As-t6C"/>
+                            <constraint firstItem="cmV-Lf-eB2" firstAttribute="centerX" secondItem="Upq-PH-DJ6" secondAttribute="centerX" id="b4d-ff-RRE"/>
+                            <constraint firstItem="Etx-xB-IfZ" firstAttribute="centerX" secondItem="Yh1-BI-Nxh" secondAttribute="centerX" id="g3i-hV-PZu"/>
+                            <constraint firstItem="Yh1-BI-Nxh" firstAttribute="top" secondItem="Y6H-SV-Oeh" secondAttribute="bottom" constant="-6" id="h0T-oU-ImA"/>
+                            <constraint firstItem="Etx-xB-IfZ" firstAttribute="top" secondItem="Yh1-BI-Nxh" secondAttribute="bottom" constant="13" id="yJI-OD-OOB"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -29,18 +30,8 @@
                                     <constraint firstAttribute="width" constant="560" id="4Or-k9-Ol7"/>
                                     <constraint firstAttribute="height" constant="41" id="pEq-dB-Z7Z"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvB-gf-11i">
-                                <rect key="frame" x="283" y="115" width="35" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="35" id="RVW-7c-Aow"/>
-                                    <constraint firstAttribute="height" constant="30" id="jT7-MC-xtJ"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2GX-yV-8iM">
@@ -65,6 +56,9 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="1000" translatesAutoresizingMaskIntoConstraints="NO" id="ky2-1u-ie8">
                                 <rect key="frame" x="68" y="153" width="464" height="31"/>
+                                <connections>
+                                    <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="0KW-eR-9Hz"/>
+                                </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jo-Sm-gGa">
                                 <rect key="frame" x="237" y="260" width="127" height="34"/>
@@ -75,6 +69,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <state key="normal" title="Volver a jugar"/>
+                                <connections>
+                                    <action selector="replayBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fvw-YK-TM2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZP5-mN-YpO">
                                 <rect key="frame" x="247" y="198" width="107" height="46"/>
@@ -87,7 +84,20 @@
                                 <state key="normal" title="Adivinar">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="playBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L1e-oD-zFh"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvB-gf-11i">
+                                <rect key="frame" x="273" y="115" width="54" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="54" id="RVW-7c-Aow"/>
+                                    <constraint firstAttribute="height" constant="30" id="jT7-MC-xtJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.68235294120000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -110,6 +120,15 @@
                             <constraint firstItem="GvB-gf-11i" firstAttribute="top" secondItem="eUc-dR-tMd" secondAttribute="bottom" constant="22" id="z5K-UU-csb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="attemptsLbl" destination="1rA-YW-PWX" id="Ej8-Y5-QGe"/>
+                        <outlet property="currentValueLbl" destination="GvB-gf-11i" id="o0u-2T-Qgk"/>
+                        <outlet property="displayLbl" destination="eUc-dR-tMd" id="2mX-3j-dnS"/>
+                        <outlet property="maxValueLbl" destination="Y1k-CS-DF8" id="bBn-Ja-rkm"/>
+                        <outlet property="minValueLbl" destination="2GX-yV-8iM" id="15a-Ol-muq"/>
+                        <outlet property="playBtn" destination="ZP5-mN-YpO" id="QqC-99-9db"/>
+                        <outlet property="slider" destination="ky2-1u-ie8" id="Ouw-qU-NuM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

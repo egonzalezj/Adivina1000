@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A6C08A1BE43614003FC965 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A6C0891BE43613003FC965 /* Library.swift */; };
 		D7979E331BD9A2250085E07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7979E321BD9A2250085E07B /* AppDelegate.swift */; };
 		D7979E351BD9A2250085E07B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7979E341BD9A2250085E07B /* ViewController.swift */; };
 		D7979E381BD9A2250085E07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7979E361BD9A2250085E07B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21A6C0891BE43613003FC965 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		D7979E2F1BD9A2250085E07B /* Adivina_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adivina_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7979E321BD9A2250085E07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7979E341BD9A2250085E07B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				D7979E391BD9A2250085E07B /* Assets.xcassets */,
 				D7979E3B1BD9A2250085E07B /* LaunchScreen.storyboard */,
 				D7979E3E1BD9A2250085E07B /* Info.plist */,
+				21A6C0891BE43613003FC965 /* Library.swift */,
 			);
 			path = Adivina_app;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				TargetAttributes = {
 					D7979E2E1BD9A2250085E07B = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZK3P88TKCM;
 					};
 					D7979E421BD9A2250085E07B = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -257,6 +261,7 @@
 			files = (
 				D7979E351BD9A2250085E07B /* ViewController.swift in Sources */,
 				D7979E331BD9A2250085E07B /* AppDelegate.swift in Sources */,
+				21A6C08A1BE43614003FC965 /* Library.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +403,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Adivina_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.itchihuahua.Adivina-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Adivina_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.itchihuahua.Adivina-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +492,7 @@
 				D7979E591BD9A2250085E07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7979E5A1BD9A2250085E07B /* Build configuration list for PBXNativeTarget "Adivina_appTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +501,7 @@
 				D7979E5C1BD9A2250085E07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7979E5D1BD9A2250085E07B /* Build configuration list for PBXNativeTarget "Adivina_appUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +510,7 @@
 				D7979E5F1BD9A2250085E07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
