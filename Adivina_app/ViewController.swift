@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var attemps: Int = 0
+    var attempts: Int = 0
     var randNumber: Int = generateNum(1, 1000)
     var minimumValue: Int = 1
     var maximumValue: Int = 1000
@@ -45,8 +45,8 @@ class ViewController: UIViewController {
     
     @IBAction func playBtn(sender: UIButton) {
         let currentValue: Int = Int(slider.value)
-        attemps++
-        attemptsLbl.text = "\(attemps) intentos"
+        attempts++
+        attemptsLbl.text = "\(attempts) intentos"
         guess(currentValue)
     }
 
@@ -59,9 +59,9 @@ class ViewController: UIViewController {
     }
     
     func guess(num: Int) {
-        if(attemps < 12) {
+        if(attempts < 12) {
             if(num == randNumber) {
-                displayLbl.text = "Felicidades, ganaste en \(attemps) intentos!"
+                displayLbl.text = "Felicidades, ganaste en \(attempts) intentos!"
                 displayLbl.textColor = UIColor.greenColor()
                 slider.enabled = false
                 playBtn.enabled = false
@@ -89,8 +89,8 @@ class ViewController: UIViewController {
     
     func resetGame() {
         randNumber = generateNum(1,1000)
-        attemps = 0
-        attemptsLbl.text = "\(attemps) intentos"
+        attempts = 0
+        attemptsLbl.text = "\(attempts) intentos"
         minimumValue = 1
         maximumValue = 1000
         slider.minimumValue = Float(minimumValue)
