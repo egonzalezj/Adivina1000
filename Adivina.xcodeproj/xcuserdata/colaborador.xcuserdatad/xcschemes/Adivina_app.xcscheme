@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D7979E2E1BD9A2250085E07B"
-               BuildableName = "Adivina_app.app"
-               BlueprintName = "Adivina_app"
-               ReferencedContainer = "container:Adivina_app.xcodeproj">
+               BuildableName = "Adivina.app"
+               BlueprintName = "Adivina"
+               ReferencedContainer = "container:Adivina.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D7979E421BD9A2250085E07B"
-               BuildableName = "Adivina_appTests.xctest"
-               BlueprintName = "Adivina_appTests"
-               ReferencedContainer = "container:Adivina_app.xcodeproj">
+               BuildableName = "Adivina.xctest"
+               BlueprintName = "AdivinaTests"
+               ReferencedContainer = "container:Adivina.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D7979E4D1BD9A2250085E07B"
-               BuildableName = "Adivina_appUITests.xctest"
-               BlueprintName = "Adivina_appUITests"
-               ReferencedContainer = "container:Adivina_app.xcodeproj">
+               BuildableName = "Adivina.xctest"
+               BlueprintName = "AdivinaUITests"
+               ReferencedContainer = "container:Adivina.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D7979E2E1BD9A2250085E07B"
-            BuildableName = "Adivina_app.app"
-            BlueprintName = "Adivina_app"
-            ReferencedContainer = "container:Adivina_app.xcodeproj">
+            BuildableName = "Adivina.app"
+            BlueprintName = "Adivina"
+            ReferencedContainer = "container:Adivina.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D7979E2E1BD9A2250085E07B"
-            BuildableName = "Adivina_app.app"
-            BlueprintName = "Adivina_app"
-            ReferencedContainer = "container:Adivina_app.xcodeproj">
+            BuildableName = "Adivina.app"
+            BlueprintName = "Adivina"
+            ReferencedContainer = "container:Adivina.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D7979E2E1BD9A2250085E07B"
-            BuildableName = "Adivina_app.app"
-            BlueprintName = "Adivina_app"
-            ReferencedContainer = "container:Adivina_app.xcodeproj">
+            BuildableName = "Adivina.app"
+            BlueprintName = "Adivina"
+            ReferencedContainer = "container:Adivina.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
